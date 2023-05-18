@@ -6,7 +6,6 @@ import { Module } from '@nestjs/common';
 import { UserModule } from './user/user.module';
 import { EmailModule } from './email/email.module';
 import configEmail from './config/email';
-import * as path from 'path';
 
 @Module({
   imports: [
